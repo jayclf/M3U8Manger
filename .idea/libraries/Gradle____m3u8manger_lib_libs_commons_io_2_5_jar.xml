@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./m3u8manger_lib/libs/commons-io-2.5.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/m3u8manger_lib/libs/commons-io-2.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

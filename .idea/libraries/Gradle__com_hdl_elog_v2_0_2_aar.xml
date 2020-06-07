@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.hdl:elog:v2.0.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1f8727bd1277265986a1a7f17aba6347/elog-v2.0.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1f8727bd1277265986a1a7f17aba6347/elog-v2.0.2/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hdl/elog/v2.0.2/12b5ea94cf00025d16b86dd7d574c5ea2db947cb/elog-v2.0.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hdl/elog/v2.0.2/77c6cdd90eed5447a54fb9545a52c5b95c0c2cfc/elog-v2.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,7 +1,7 @@
 package com.hdl.m3u8demo;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
@@ -21,9 +21,6 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-
-import hdl.com.lib.runtimepermissions.HPermissions;
-import hdl.com.lib.runtimepermissions.PermissionsResultAction;
 
 public class Main2Activity extends AppCompatActivity {
     //url随时可能失效
@@ -48,20 +45,6 @@ public class Main2Activity extends AppCompatActivity {
     }
 
     private void requestPermission() {
-        /*
-         * 请求所有必要的权限----
-         */
-        HPermissions.getInstance().requestAllManifestPermissionsIfNecessary(this, new PermissionsResultAction() {
-            @Override
-            public void onGranted() {
-
-            }
-
-            @Override
-            public void onDenied(String permission) {
-
-            }
-        });
     }
 
     public void onGetInfo(View view) {

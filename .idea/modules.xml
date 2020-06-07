@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ASCode-M3U8Manger.iml" filepath="$PROJECT_DIR$/.idea/modules/ASCode-M3U8Manger.iml" group="M3U8Manger" />
       <module fileurl="file://$PROJECT_DIR$/M3U8Manger.iml" filepath="$PROJECT_DIR$/M3U8Manger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/M3U8Manger-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/M3U8Manger-app.iml" group="M3U8Manger/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/m3u8manger_lib/M3U8Manger-m3u8manger_lib.iml" filepath="$PROJECT_DIR$/.idea/modules/m3u8manger_lib/M3U8Manger-m3u8manger_lib.iml" group="M3U8Manger/m3u8manger_lib" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/m3u8manger_lib/m3u8manger_lib.iml" filepath="$PROJECT_DIR$/m3u8manger_lib/m3u8manger_lib.iml" />
     </modules>

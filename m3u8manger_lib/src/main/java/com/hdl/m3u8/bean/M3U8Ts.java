@@ -1,6 +1,6 @@
 package com.hdl.m3u8.bean;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 /**
  * m3u8切片类
