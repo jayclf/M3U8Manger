@@ -1,0 +1,6 @@
+/app/build/
+/.idea/
+/.gradle/
+/build/
+/m3u8manger_lib/build/
+/local.properties
