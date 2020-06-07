@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">M3U8Manger</string>
+    <string name="title_permission">权限申请</string>
+    <string name="retionale_permission">在下载过程中需要申请以下权限，否则无法进行文件下载，请在权限申请对话框中选择“允许”。</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_url">从URL下载</string>
+    <string name="input_url">输入URL地址</string>
 </resources>
