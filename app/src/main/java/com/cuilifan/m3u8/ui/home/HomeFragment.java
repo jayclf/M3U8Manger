@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -17,7 +18,10 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
+import com.cuilifan.m3u8.Network;
 import com.cuilifan.m3u8.R;
+
+import java.io.File;
 
 public class HomeFragment extends Fragment {
 
@@ -42,6 +46,7 @@ public class HomeFragment extends Fragment {
                     showURLInputDialog();
                     break;
                 case R.id.bt_from_file:
+                    // 弹出文件选择对话框
 
                     break;
             }
@@ -61,11 +66,38 @@ public class HomeFragment extends Fragment {
                         // 获取输入的URL
                         String url = editText.getText().toString().trim();
                         if (TextUtils.isEmpty(url)) {
-
+                            Toast.makeText(getContext(), "请输入要下载的m3u8文件的url", Toast.LENGTH_SHORT).show();
+                        } else {
+                            doDownloadFromURL(url);
                         }
                     }
                 })
                 .create()
                 .show();
+    }
+
+    private void doDownloadFromURL(String url) {
+        // 先下载文件
+        new Network().download(url, new Network.DownloadListener() {
+            @Override
+            public void onStart() {
+
+            }
+
+            @Override
+            public void onProgress(int currentLength, int totalLength) {
+
+            }
+
+            @Override
+            public void onFinish(File file) {
+
+            }
+
+            @Override
+            public void onFailed(String error) {
+                Toast.makeText(getContext(), error, Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 }
